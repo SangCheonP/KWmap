@@ -9,5 +9,6 @@
 </head>
 <body>
 test
+${arr}
 </body>
 </html>
