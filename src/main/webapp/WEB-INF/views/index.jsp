@@ -18,7 +18,7 @@
   <div class="page">
     <header>
       <div class="inner">
-        <h1>광운대학교<a href="">(logo img)</a></h1>
+        <h1>광운대학교<a href="">KWU Kampus</a></h1>
         <div id="menuBtn">
           <!-- <i class='bx bx-search' ></i> -->
           <div class="center">
@@ -30,7 +30,7 @@
         <div id="sideMenu">
           <div class="category">
             <div class="text">
-              <span>카테고리 1</span>
+              <span>건물</span>
               <i class='bx bxs-chevron-down'></i>
             </div>
             <ul class="sub-categories">
@@ -41,7 +41,7 @@
           </div>
           <div class="category">
             <div class="text">
-              <span>카테고리 2</span>
+              <span>스터디</span>
               <i class='bx bxs-chevron-down'></i>
             </div>
             <ul class="sub-categories">
@@ -52,7 +52,73 @@
           </div>
           <div class="category">
             <div class="text">
-              <span>카테고리 3</span>
+              <span>학적</span>
+              <i class='bx bxs-chevron-down'></i>
+            </div>
+            <ul class="sub-categories">
+              <li><a href="">세부 카테고리 1</a></li>
+              <li><a href="">세부 카테고리 2</a></li>
+              <li><a href="">세부 카테고리 3</a></li>
+            </ul>
+          </div>
+          <div class="category">
+            <div class="text">
+              <span>은행/ATM/우체국</span>
+              <i class='bx bxs-chevron-down'></i>
+            </div>
+            <ul class="sub-categories">
+              <li><a href="">세부 카테고리 1</a></li>
+              <li><a href="">세부 카테고리 2</a></li>
+              <li><a href="">세부 카테고리 3</a></li>
+            </ul>
+          </div>
+          <div class="category">
+            <div class="text">
+              <span>휴게실</span>
+              <i class='bx bxs-chevron-down'></i>
+            </div>
+            <ul class="sub-categories">
+              <li><a href="">세부 카테고리 1</a></li>
+              <li><a href="">세부 카테고리 2</a></li>
+              <li><a href="">세부 카테고리 3</a></li>
+            </ul>
+          </div>
+          <div class="category">
+            <div class="text">
+              <span>행정기관</span>
+              <i class='bx bxs-chevron-down'></i>
+            </div>
+            <ul class="sub-categories">
+              <li><a href="">세부 카테고리 1</a></li>
+              <li><a href="">세부 카테고리 2</a></li>
+              <li><a href="">세부 카테고리 3</a></li>
+            </ul>
+          </div>
+          <div class="category">
+            <div class="text">
+              <span>흡연장</span>
+              <i class='bx bxs-chevron-down'></i>
+            </div>
+            <ul class="sub-categories">
+              <li><a href="">세부 카테고리 1</a></li>
+              <li><a href="">세부 카테고리 2</a></li>
+              <li><a href="">세부 카테고리 3</a></li>
+            </ul>
+          </div>
+          <div class="category">
+            <div class="text">
+              <span>장애인 지원 시설</span>
+              <i class='bx bxs-chevron-down'></i>
+            </div>
+            <ul class="sub-categories">
+              <li><a href="">세부 카테고리 1</a></li>
+              <li><a href="">세부 카테고리 2</a></li>
+              <li><a href="">세부 카테고리 3</a></li>
+            </ul>
+          </div>
+          <div class="category">
+            <div class="text">
+              <span>기타시설</span>
               <i class='bx bxs-chevron-down'></i>
             </div>
             <ul class="sub-categories">
