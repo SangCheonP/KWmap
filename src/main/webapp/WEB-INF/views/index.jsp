@@ -1,6 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
-<html lang="ko">
-
+<html>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -67,18 +69,18 @@
     <main class="main">
       <div class="hover-container">
         <div class="popup hover-layer">
-            <img src="./main-img/background.png">
+            <img src="./img/background.png">
         </div>
         <div class="popup hover-layer">
-            <img src="./main-img/참빛관.png">
+            <img src="./img/참빛관.png">
             <p class="popup-text">hover 시 보여질 문장</p>
         </div>
         <div class="popup hover-layer">
-            <img src="./main-img/새빛관.png">
+            <img src="./img/새빛관.png">
             <p class="popup-text">hover 시 보여질 문장</p>
         </div>
         <div class="popup hover-layer">
-            <img src="./main-img/비마관.png">
+            <img src="./img/비마관.png">
             <p class="popup-text">hover 시 보여질 문장</p>
         </div>
       </div>
