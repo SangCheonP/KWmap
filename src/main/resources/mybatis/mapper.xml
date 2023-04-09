@@ -4,7 +4,7 @@
 <mapper namespace="com.example.kwmap.mapper.SampleMapper">
     <select id="selectId" resultType="Integer">
         select id
-        from bank
-        where id = 20;
+        from member
+        where id = 2;
     </select>
 </mapper>

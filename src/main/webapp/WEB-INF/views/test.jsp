@@ -8,7 +8,7 @@
     <title>test</title>
 </head>
 <body>
-test
+test<hr>
 ${arr}
 </body>
 </html>

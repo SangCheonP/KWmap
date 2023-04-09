@@ -12,11 +12,27 @@ public class SampleController {
 
     @Autowired
     SampleService sampleService;
-    SampleMapper sampleMapper;
+
+    @RequestMapping("/main")
+    public String showMain(Model model) {
+        System.out.println("@RequestMapping(\"/main\")");
+        //System.out.println(sampleService.selectTest());
+        //model.addAttribute("arr",sampleService.selectTest());
+        return "main";
+    }
+
+    @RequestMapping("/detail")
+    public String showDetail(Model model) {
+        System.out.println("@RequestMapping(\"/detail\")");
+        //System.out.println(sampleService.selectTest());
+        //model.addAttribute("arr",sampleService.selectTest());
+        return "detail";
+    }
 
     @RequestMapping("/test")
     public String sampleView(Model model) {
-        System.out.println(sampleService.selectTest());
+        System.out.println("@RequestMapping(\"/test\")");
+        //System.out.println(sampleService.selectTest());
         model.addAttribute("arr",sampleService.selectTest());
         return "test";
     }
