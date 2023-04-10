@@ -1,6 +1,5 @@
 package com.example.kwmap.controller;
 
-import com.example.kwmap.mapper.SampleMapper;
 import com.example.kwmap.service.SampleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,8 +15,8 @@ public class SampleController {
     @RequestMapping("/main")
     public String showMain(Model model) {
         System.out.println("@RequestMapping(\"/main\")");
-        //System.out.println(sampleService.selectTest());
-        //model.addAttribute("arr",sampleService.selectTest());
+        System.out.println(sampleService.showAllData());
+        model.addAttribute("arr",sampleService.showAllData());
         return "main";
     }
 

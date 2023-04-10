@@ -139,6 +139,20 @@
         <div class="prop prop04">prop04</div>
         <div class="prop prop05">prop05</div>
       </div>
+      <div>
+        <c:forEach items="${arr}" var="arr">
+          <table>
+            <tbody>
+            <tr>
+              <td>${arr.id}</td>
+              <td>${arr.bd_name}</td>
+              <td>${arr.floor}</td>
+              <td>${arr.fc_name}</td>
+            </tr>
+            </tbody>
+          </table>
+        </c:forEach>
+      </div>
     </main>
 
   </div>
